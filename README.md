@@ -2,7 +2,7 @@
 
 OpenCore version: 1.0.2
 
-macOS: 
+macOS: 13.7 (22H123)
 
 | Hardware |                                        |
 | -------- | -------------------------------------- |
@@ -11,9 +11,16 @@ macOS:
 | Motherboard | MSI B450M-A Pro Max                 |
 | Audio    | Realtek ALC897                         |
 
+## Demo
+![about](https://i.imgur.com/XLH1L01.png)
+![homepage](https://i.imgur.com/cN3TgRe.jpeg)
 
+OpenCL benchmark: https://browser.geekbench.com/v6/compute/2965234
+
+CPU benchmark: https://browser.geekbench.com/v6/cpu/8384321
 
 ## Install
+Use this EFI as is, remember to adapt it for your hardware.
 1. [Create the USB](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/#creating-the-usb)
 2. Download this EFI
 3. [Use SSDTTime to generate the SSDTs](https://chefkissinc.github.io/guides/hackintosh/gathering-files/acpi/)
